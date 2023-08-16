@@ -1,0 +1,131 @@
+.orange{
+    position:absolute;
+    top: 8vh;
+    right: 81vh;
+    border: 2px solid black;
+    width: 40%;
+    height: 95px;
+    background-color: orange;
+    border-left: 11px solid brown;
+    border-top-left-radius: 8px;
+}
+.white{
+    position:absolute;
+    top: 22vh;
+    right: 81vh;
+    border: 2px solid black;
+    width: 40%;
+    height: 95px;
+    background-color: white;
+    border-left: 11px solid brown;
+    border-top-left-radius: 8px;
+    margin:0 auto;
+}
+.green{
+    position:absolute;
+    top: 36vh;
+    right: 81vh;
+    border: 2px solid black;
+    width: 40%;
+    height: 95px;
+    background-color: green;
+    border-left: 11px solid brown;
+    border-top-left-radius: 8px;
+}
+.line{
+    position: absolute;
+    top: 50vh;
+    left: 43.2vh;
+    height: 300px;
+    background-color: brown;
+    border: none;
+    width:10px;
+}
+.wheel{
+    border: 6px solid blue;
+    height: 78px;
+    width: 6%;
+    position: absolute;
+    top: 22vh;
+    right: 115vh;
+    border-radius: 44px;
+}
+.wheelline{
+    border: 0px solid blue;
+    height: 78px;
+   width: 3px; 
+    background-color: blue;
+    position: absolute;
+    top: 0vh;
+    left: 6vh;
+}
+#line1{
+    border: 0px solid blue;
+    height: 78px;
+   width: 3px; 
+    background-color: blue;
+    position: absolute;
+    top: 0vh;
+    left: 6vh;
+}
+#line2{
+    width: 3px;  
+}
+#line3{
+   
+    transform: rotate(15deg);
+}
+#line4{
+   
+    transform: rotate(30deg);
+}
+#line5{
+  
+    transform: rotate(45deg);
+}
+#line5{
+   
+    transform: rotate(51deg);
+}
+#line6{
+    
+    transform: rotate(66deg);
+}
+#line6{
+   
+    transform: rotate(72deg);
+}
+#line7{
+    
+    transform: rotate(92deg);
+}
+#line8{
+  
+    transform: rotate(113deg);
+}
+#line9{
+   
+    transform: rotate(135deg);
+}
+#line10{
+  
+    transform: rotate(155deg);
+}
+
+.wheel {
+	animation-name: wheel;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+
+@keyframes wheel {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* transform: rotate(15deg); */
